@@ -1,0 +1,33 @@
+$background-color: #f7f8f9;
+$main-color: #007ab2;
+
+.btn{
+	background-color: transparent;
+	border: 2px $main-color solid;
+	color: $main-color;
+	border-radius: 40px;
+	padding: 5px 25px;
+}
+
+.btn-primary{
+  border-radius: 40px;
+  padding: 10px 30px;
+}
+
+.btn-success{
+  background-color: #5cb85c;
+  color: #fff;
+  border-radius: 40px;
+  padding: 15px 25px;
+  font-size: 20px;
+}
+
+.btn-success:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover{
+	background-color: $main-color;
+	color: #fff;
+}
