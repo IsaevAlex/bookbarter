@@ -13,6 +13,11 @@ gem 'rails', '~> 5.0.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 gem 'bootstrap-sass'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-vkontakte'
 
 group :production do 
   gem 'pg'
